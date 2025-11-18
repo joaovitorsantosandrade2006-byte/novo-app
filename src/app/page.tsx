@@ -141,7 +141,7 @@ const sleepQuestions = [
   }
 ]
 
-export default function SleepAssessmentApp() {
+export default function DreamWellApp() {
   const [assessments, setAssessments] = useState<SleepAssessment[]>([])
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [currentQuestion, setCurrentQuestion] = useState(0)
@@ -288,7 +288,7 @@ export default function SleepAssessmentApp() {
               <Moon className="w-8 h-8 text-white" />
             </div>
             <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              SleepTracker
+              DreamWell
             </h1>
           </div>
           <p className="text-lg text-gray-600 dark:text-gray-300">
